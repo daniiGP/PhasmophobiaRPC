@@ -1,5 +1,6 @@
 ﻿using MelonLoader;
 using System;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using Photon.Pun;
 using Photon.Realtime;
@@ -21,31 +22,26 @@ namespace Phasmophobia_RPC {
                 roomNow = "Menu";
 
                 var activityManager = discord.GetActivityManager();
-                var activity = new Discord.Activity {
+                var activity = new Discord.Activity 
+                {
                     State = "",
                     Details = roomNow,
                     Timestamps =
-           {
-                Start = (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds,
-            },
+                    {
+                        Start = (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds,
+                    },
                     Assets =
-           {
-                LargeImage = "icon",
-                LargeText = "By DaniGP#9612"
-            }, };
+                    {
+                        LargeImage = "icon",
+                        LargeText = "By DaniGP#9612"
+                    }, 
+                };
                 activityManager.UpdateActivity(activity, (res) => {
                     if (res == Discord.Result.Ok) {
                     }
                 });
 
             } 
-            //else if (level == 1 && PhotonNetwork.InRoom) {
-            //    UpdateActivity(discord, IsRoomPrivate(), RoomName(), (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds, PhotonNetwork.CurrentRoom.PlayerCount);
-            //} else if (level > 1) {
-            //    roomNow = PhotonNetwork.CurrentRoom.Name;
-            //    roomOld = roomNow;
-            //    UpdateActivity(discord, IsRoomPrivate(), RoomName(), (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds, PhotonNetwork.CurrentRoom.PlayerCount);
-            //}
         }
         public override void OnUpdate() {
 
@@ -55,13 +51,6 @@ namespace Phasmophobia_RPC {
                     playersCount = playerSize;
                 }
             }
-
-            //if (PhotonNetwork.InRoom && helpVar == 1) {
-            //    playersCount = playerSize;
-            //    UpdateActivity(discord, IsRoomPrivate(), RoomName(), 0, playerSize);
-            //} else if (PhotonNetwork.InLobby && helpVar == 0) {
-            //    UpdateActivityMenu(discord);
-            //} 
 
             if (RoomName() != mapa) {
                 mapa = RoomName();
@@ -90,9 +79,9 @@ namespace Phasmophobia_RPC {
         }
         public string IsRoomPrivate() {
             if (PhotonNetwork.CurrentRoom.IsVisible && PhotonNetwork.InRoom) {
-                return "Public";
+                return "Sala Publica";
             }else{
-                return "Private";
+                return "Sala Privada";
             }
         }
         static void UpdateActivityMenu(Discord.Discord discord) {
@@ -164,5 +153,7 @@ namespace Phasmophobia_RPC {
             });
 
         }
+
+        public static GameController gameController; 
     }
 }
