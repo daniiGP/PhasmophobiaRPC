@@ -2,6 +2,7 @@
 using System;
 using UnityEngine.SceneManagement;
 using Photon.Pun;
+using Photon.Realtime;
 namespace Phasmophobia_RPC {
     public class MyMod : MelonMod {
         public Discord.Discord discord;
@@ -49,8 +50,7 @@ namespace Phasmophobia_RPC {
         public override void OnUpdate() {
 
             if (PhotonNetwork.InRoom) {
-                MelonLogger.Log(PhotonNetwork.CurrentRoom.Name + " \\ " + roomOld);
-                playerSize = PhotonNetwork.CurrentRoom.players.Count;
+                playerSize = PhotonNetwork.CurrentRoom.PlayerCount;
                 if(helpVar == 0) {
                     playersCount = playerSize;
                 }
@@ -68,15 +68,12 @@ namespace Phasmophobia_RPC {
             }
 
             if (PhotonNetwork.InRoom && PhotonNetwork.CurrentRoom.Name != roomOld) {
-                MelonLogger.Log("PhotonNetwork.InRoom && PhotonNetwork.CurrentRoom.Name != roomOld");
                 roomNow = PhotonNetwork.CurrentRoom.Name;
                 roomOld = roomNow;
                 UpdateActivity(discord, IsRoomPrivate(), RoomName(), (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds, playerSize);
             } else if (PhotonNetwork.InRoom && PhotonNetwork.CurrentRoom.Name == roomOld) {
-                MelonLogger.Log("PhotonNetwork.InRoom && PhotonNetwork.CurrentRoom.Name == roomOld");
                 UpdateActivity(discord, IsRoomPrivate(), RoomName(), (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds, playerSize);
             } else if (PhotonNetwork.InLobby && helpVar ==2) {
-                MelonLogger.Log("PhotonNetwork.InLobby && helpVar ==2");
                 UpdateActivityMenu(discord);
             }
 
@@ -85,7 +82,6 @@ namespace Phasmophobia_RPC {
         }
 
         public string RoomName() {
-            MelonLogger.Log("RoomName");
             string SceneRoom = SceneManager.GetActiveScene().name.Replace('_', ' ');
             if (SceneRoom == "Menu New") {
                 return "Menu";
@@ -93,15 +89,13 @@ namespace Phasmophobia_RPC {
             return SceneRoom;
         }
         public string IsRoomPrivate() {
-            MelonLogger.Log("IsRoomPrivate");
-            if (PhotonNetwork.CurrentRoom.isVisible && PhotonNetwork.InRoom) {
+            if (PhotonNetwork.CurrentRoom.IsVisible && PhotonNetwork.InRoom) {
                 return "Public";
             }else{
                 return "Private";
             }
         }
         static void UpdateActivityMenu(Discord.Discord discord) {
-            MelonLogger.Log("UpdateActivityMenu");
             MyMod.helpVar = 1;
             var activityManager = discord.GetActivityManager();
             var lobbyManager = discord.GetLobbyManager();
@@ -124,7 +118,6 @@ namespace Phasmophobia_RPC {
         }
 
         static void UpdateActivity(Discord.Discord discord, string state, string Details, long time, int size) {
-            MelonLogger.Log("UpdateActivity");
             helpVar = 2;
             var activityManager = discord.GetActivityManager();
             var lobbyManager = discord.GetLobbyManager();

@@ -31,273 +31,177 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Assembly-CSharp, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Users\josie\Desktop\Il2CppAssemblyUnhollower.0.4.9.1\DummyDll\Assembly-CSharp.dll</HintPath>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\Assembly-CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-CSharp-firstpass, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Users\josie\Desktop\Il2CppAssemblyUnhollower.0.4.9.1\DummyDll\Assembly-CSharp-firstpass.dll</HintPath>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
-    <Reference Include="com.unity.multiplayer-hlapi.Runtime, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+    <Reference Include="Bhaptics.Tact">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\Bhaptics.Tact.dll</HintPath>
     </Reference>
-    <Reference Include="Iced, Version=1.6.0.0, Culture=neutral, PublicKeyToken=5baba79f4264913b, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\Iced.dll</HintPath>
+    <Reference Include="DissonanceVoip">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\DissonanceVoip.dll</HintPath>
     </Reference>
-    <Reference Include="Il2CppMono.Security, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\Il2CppMono.Security.dll</HintPath>
+    <Reference Include="DOTween">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\DOTween.dll</HintPath>
     </Reference>
-    <Reference Include="Il2Cppmscorlib, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\Il2Cppmscorlib.dll</HintPath>
+    <Reference Include="Il2CppDummyDll">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\Il2CppDummyDll.dll</HintPath>
     </Reference>
-    <Reference Include="Il2CppSystem, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\Il2CppSystem.dll</HintPath>
+    <Reference Include="MelonLoader">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\MelonLoader.dll</HintPath>
     </Reference>
-    <Reference Include="Il2CppSystem.Configuration, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\Il2CppSystem.Configuration.dll</HintPath>
-    </Reference>
-    <Reference Include="Il2CppSystem.Core, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\Il2CppSystem.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Il2CppSystem.Diagnostics.StackTrace, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\Il2CppSystem.Diagnostics.StackTrace.dll</HintPath>
-    </Reference>
-    <Reference Include="Il2CppSystem.Globalization.Extensions, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\Il2CppSystem.Globalization.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="Il2CppSystem.IO.Compression, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\Il2CppSystem.IO.Compression.dll</HintPath>
-    </Reference>
-    <Reference Include="Il2CppSystem.Xml, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\Il2CppSystem.Xml.dll</HintPath>
-    </Reference>
-    <Reference Include="MelonLoader.ModHandler, Version=0.2.7.2, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\MelonLoader.ModHandler.dll</HintPath>
-    </Reference>
-    <Reference Include="MeshExtension, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\MeshExtension.dll</HintPath>
+    <Reference Include="MeshExtension">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\MeshExtension.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Mono.Security">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\Mono.Security.dll</HintPath>
+    </Reference>
     <Reference Include="netstandard">
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\netstandard.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\netstandard.dll</HintPath>
     </Reference>
-    <Reference Include="Photon3Unity3D, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\Photon3Unity3D.dll</HintPath>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\Photon3Unity3D.dll</HintPath>
     </Reference>
-    <Reference Include="PhotonChat, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\PhotonChat.dll</HintPath>
+    <Reference Include="PhotonChat">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\PhotonChat.dll</HintPath>
     </Reference>
-    <Reference Include="PhotonRealtime, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\PhotonRealtime.dll</HintPath>
+    <Reference Include="PhotonRealtime">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\PhotonRealtime.dll</HintPath>
     </Reference>
-    <Reference Include="PhotonUnityNetworking, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\PhotonUnityNetworking.dll</HintPath>
+    <Reference Include="PhotonUnityNetworking">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\PhotonUnityNetworking.dll</HintPath>
     </Reference>
-    <Reference Include="PhotonUnityNetworking.Utilities, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\PhotonUnityNetworking.Utilities.dll</HintPath>
+    <Reference Include="PhotonUnityNetworking.Utilities">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\PhotonUnityNetworking.Utilities.dll</HintPath>
     </Reference>
-    <Reference Include="PhotonVoice, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\PhotonVoice.dll</HintPath>
+    <Reference Include="PhotonWebSocket">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\PhotonWebSocket.dll</HintPath>
     </Reference>
-    <Reference Include="PhotonVoice.API, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\PhotonVoice.API.dll</HintPath>
+    <Reference Include="System.Configuration">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\System.Configuration.dll</HintPath>
     </Reference>
-    <Reference Include="PhotonVoice.PUN, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\PhotonVoice.PUN.dll</HintPath>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
-    <Reference Include="PhotonWebSocket, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\PhotonWebSocket.dll</HintPath>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\Unity.InputSystem.dll</HintPath>
     </Reference>
-    <Reference Include="PowerBooks, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\PowerBooks.dll</HintPath>
+    <Reference Include="Unity.InputSystem.RebindingUI">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\Unity.InputSystem.RebindingUI.dll</HintPath>
     </Reference>
-    <Reference Include="UnhollowerBaseLib, Version=0.4.9.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnhollowerBaseLib.dll</HintPath>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="UnhollowerRuntimeLib, Version=0.4.9.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnhollowerRuntimeLib.dll</HintPath>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\Unity.Analytics.DataPrivacy.dll</HintPath>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.AIModule.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InputSystem, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\Unity.InputSystem.dll</HintPath>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.AndroidJNIModule.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InputSystem.RebindingUI, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\Unity.InputSystem.RebindingUI.dll</HintPath>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\Unity.Postprocessing.Runtime.dll</HintPath>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.dll</HintPath>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.AIModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.AIModule.dll</HintPath>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.ClothModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.AndroidJNIModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.AndroidJNIModule.dll</HintPath>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.AnimationModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.AnimationModule.dll</HintPath>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.DirectorModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.AssetBundleModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.AssetBundleModule.dll</HintPath>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.GridModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.AudioModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.AudioModule.dll</HintPath>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.ClothModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.ClothModule.dll</HintPath>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.CoreModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.CoreModule.dll</HintPath>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.DirectorModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.DirectorModule.dll</HintPath>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.InputModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.GridModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.GridModule.dll</HintPath>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.JSONSerializeModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.ImageConversionModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.ImageConversionModule.dll</HintPath>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.ParticleSystemModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.IMGUIModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.IMGUIModule.dll</HintPath>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.Physics2DModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.InputLegacyModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.InputLegacyModule.dll</HintPath>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.InputModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.InputModule.dll</HintPath>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.SharedInternalsModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.JSONSerializeModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.JSONSerializeModule.dll</HintPath>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.SubsystemsModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.ParticleSystemModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.ParticleSystemModule.dll</HintPath>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.TerrainModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Physics2DModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.Physics2DModule.dll</HintPath>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.TerrainPhysicsModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.PhysicsModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.PhysicsModule.dll</HintPath>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.TextCoreModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.SharedInternalsModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.SharedInternalsModule.dll</HintPath>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.SubsystemsModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.SubsystemsModule.dll</HintPath>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.TilemapModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TerrainModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.TerrainModule.dll</HintPath>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TerrainPhysicsModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TextRenderingModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.TextRenderingModule.dll</HintPath>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.UIModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TilemapModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.TilemapModule.dll</HintPath>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.UnityAnalyticsModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.UI.dll</HintPath>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UIElementsModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.UIElementsModule.dll</HintPath>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.UnityWebRequestModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UIModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.UIModule.dll</HintPath>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.VFXModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UNETModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.UNETModule.dll</HintPath>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.VideoModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UnityAnalyticsModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.VRModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.WindModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.VFXModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.VFXModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VideoModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.VideoModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VRModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.VRModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.WindModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.WindModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XRModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Phasmophobia\MelonLoader\Dependencies\AssemblyGenerator\Il2CppAssemblyUnhollower\Output\UnityEngine.XRModule.dll</HintPath>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-master\DummyDll\UnityEngine.XRModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
